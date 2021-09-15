@@ -8,7 +8,7 @@ const cors = require('cors'); //Permite la conexión entre dos servidores (Front
 const app = express();
 
 // Db connection
-//const { mongoose } = require('./drivers_databases/driverMongoDB');
+const { mongoose } = require('./databases/driverMongoDB');
 //const { mysql } = require('./drivers_databases/driverMySql');
 
 // Settings 
